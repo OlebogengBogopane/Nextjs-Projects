@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import EventList from "@/components/events/event-list";
 import { Fragment } from "react";
 import ResultsTitle from "@/components/events/results-title";
-//import Button from "@/components/events/ui/button";
+import Button from "@/components/events/ui/button";
 import ErrorAlert from "@/components/events/ui/error-alert";
 
 
@@ -52,6 +52,10 @@ if (
       <ErrorAlert>
       <p>No events found for the chosen filter! </p>
       </ErrorAlert>
+      <div className="center">
+     <Button link='/events' >Show All Events</Button>
+     </div>
+     <br />
     </Fragment>
     );
   }
