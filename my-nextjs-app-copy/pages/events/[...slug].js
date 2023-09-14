@@ -142,4 +142,4 @@ const date = new Date(numYear , numMonth -1);
 //   };
 // }
 
-export default FilteredEventsPage
+export default FilteredEventsPage;
